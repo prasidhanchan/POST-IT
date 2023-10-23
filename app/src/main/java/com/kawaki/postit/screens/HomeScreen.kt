@@ -86,17 +86,7 @@ fun HomeScreen(viewModel: NotificationViewModel) {
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            Row {
-                TextBox(value = serverKey.value, onValueChange = { serverKey.value = it }, placeHolder = "Enter Your Server Key")
-                Button(
-                    onClick = {
-//                    if (serverKey.value.trim().isNotEmpty()) {
-//
-//                    }
-                    }) {
-
-                }
-            }
+            TextBox(value = serverKey.value, onValueChange = { serverKey.value = it }, placeHolder = "Enter Your Server Key")
             TextBox(modifier = Modifier.padding(top = 10.dp), value = tokenOrTopic.value, onValueChange = { tokenOrTopic.value = it }, placeHolder = "Optional: Enter Token or Topic")
 
             when (fieldCount.value) {
@@ -156,7 +146,7 @@ fun HomeScreen(viewModel: NotificationViewModel) {
             3 -> {
                 Row(modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 10.dp, bottom = 10.dp),
+                    .padding(top = 20.dp, bottom = 10.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceAround) {
                     TextBox(
@@ -223,7 +213,7 @@ fun HomeScreen(viewModel: NotificationViewModel) {
             4 -> {
                 Row(modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 10.dp, bottom = 10.dp),
+                    .padding(top = 20.dp, bottom = 10.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceAround) {
                     TextBox(
@@ -314,7 +304,7 @@ fun HomeScreen(viewModel: NotificationViewModel) {
             else -> {
                 Row(modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 10.dp),
+                    .padding(top = 20.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceAround) {
                     TextBox(
