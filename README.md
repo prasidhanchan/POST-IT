@@ -1,5 +1,5 @@
 # POST-IT
-<p>
+<p align="center">
   <img src="https://github.com/prasidhgopalanchan/POST-IT/assets/92362239/a237ff9c-a6a3-4488-a7f2-0758a714fbf5" alt="Light1" width="300px">
   <img src="https://github.com/prasidhgopalanchan/POST-IT/assets/92362239/21b0d835-9c3f-4f04-b3dc-e4e134a019f1" alt="Light2" width="300px">
 <br><br>
